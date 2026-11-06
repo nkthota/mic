@@ -1,0 +1,451 @@
+<ACORD>
+  <SignonRq>
+    <SignonPswd>
+      <CustId>
+        <CustLoginId>43786</CustLoginId>
+      </CustId>
+      <CustPswd />
+    </SignonPswd>
+    <ClientApp>
+      <Org>TST</Org>
+      <Name>VQAR NonBuy Unit Test</Name>
+      <Version>1.0</Version>
+    </ClientApp>
+    <ProxyClient />
+    <ClientDt>2026-10-29T08:47:16.9092109-05:00</ClientDt>
+    <CustLangPref>en-US</CustLangPref>
+    <Override />
+  </SignonRq>
+  <InsuranceSvcRq>
+    <PersAutoPolicyQuoteInqRq>
+      <com.progressive_RateCallCd>RC0</com.progressive_RateCallCd>
+      <com.progressive_RateCallOrigin>AGT</com.progressive_RateCallOrigin>
+      <com.progressive_VQARInstruction>MVPDump</com.progressive_VQARInstruction>
+      <com.progressive_PProEnv>QA051</com.progressive_PProEnv>
+      <CurCd>USD</CurCd>
+      <Producer>
+        <ItemIdInfo>
+          <AgencyId>12345</AgencyId>
+        </ItemIdInfo>
+        <ProducerInfo>
+          <com.progressive_AgentOfRecord>CLAIBORNE JR, MARK B</com.progressive_AgentOfRecord>
+          <ProducerRoleCd>Producer</ProducerRoleCd>
+        </ProducerInfo>
+        <GeneralPartyInfo>
+          <ItemIdInfo>
+            <AgencyId>12345</AgencyId>
+          </ItemIdInfo>
+          <NameInfo>
+            <PersonName />
+            <TaxIdentity>
+              <TaxIdTypeCd>SSN</TaxIdTypeCd>
+            </TaxIdentity>
+            <CommlName />
+          </NameInfo>
+          <Addr />
+          <Communications>
+            <EmailInfo />
+          </Communications>
+        </GeneralPartyInfo>
+      </Producer>
+      <InsuredOrPrincipal>
+        <GeneralPartyInfo>
+          <ItemIdInfo>
+            <AgencyId>12345</AgencyId>
+          </ItemIdInfo>
+          <NameInfo>
+            <PersonName />
+            <TaxIdentity>
+              <TaxIdTypeCd>SSN</TaxIdTypeCd>
+            </TaxIdentity>
+            <CommlName />
+          </NameInfo>
+          <Addr>
+            <AddrTypeCd>StreetAddress</AddrTypeCd>
+            <Addr1>123 Bypass PBV</Addr1>
+            <Addr2>Apt 22</Addr2>
+            <City>Any</City>
+            <StateProvCd>CA</StateProvCd>
+            <PostalCode>90403</PostalCode>
+            <com.progressive_POBoxMilitaryInd>0</com.progressive_POBoxMilitaryInd>
+          </Addr>
+          <Communications>
+            <PhoneInfo>
+              <CommunicationUseCd>Home</CommunicationUseCd>
+              <PhoneNumber>+1-555-5550000</PhoneNumber>
+            </PhoneInfo>
+            <PhoneInfo>
+              <CommunicationUseCd>Business</CommunicationUseCd>
+              <PhoneNumber>+1-555-5551234</PhoneNumber>
+            </PhoneInfo>
+            <EmailInfo>
+              <EmailAddr>test@test.progressive.com</EmailAddr>
+              <com.progressive_ConfirmEmailAddr>test@test.progressive.com</com.progressive_ConfirmEmailAddr>
+            </EmailInfo>
+          </Communications>
+        </GeneralPartyInfo>
+        <InsuredOrPrincipalInfo>
+          <com.progressive_ReadPolicyPrivacyInd>1</com.progressive_ReadPolicyPrivacyInd>
+          <InsuredOrPrincipalRoleCd>Insured</InsuredOrPrincipalRoleCd>
+          <PersonInfo />
+        </InsuredOrPrincipalInfo>
+      </InsuredOrPrincipal>
+      <PersPolicy>
+        <QuoteInfo />
+        <PaymentOption>
+          <NumPayments>1</NumPayments>
+          <DownPaymentPct>100</DownPaymentPct>
+          <MethodPaymentCd>CASH</MethodPaymentCd>
+          <DepositAmt />
+          <ElectronicFundsTransfer>
+            <FromAcct>
+              <BankInfo />
+            </FromAcct>
+          </ElectronicFundsTransfer>
+        </PaymentOption>
+        <PaymentOption>
+          <DepositMethodPaymentCd>EFTC</DepositMethodPaymentCd>
+          <DepositAmt />
+          <ElectronicFundsTransfer>
+            <FromAcct>
+              <CommercialName>B1 Creditdemo</CommercialName>
+              <AccountNumberId>2410704331</AccountNumberId>
+              <BankInfo>
+                <BankId>241070433</BankId>
+              </BankInfo>
+            </FromAcct>
+          </ElectronicFundsTransfer>
+        </PaymentOption>
+        <com.progressive_eSignInd>1</com.progressive_eSignInd>
+        <com.progressive_eSignGaragedStQst>1</com.progressive_eSignGaragedStQst>
+        <com.progressive_eSignLicensedVehicles>1</com.progressive_eSignLicensedVehicles>
+        <com.progressive_eSignShowLoginInfoInd>1</com.progressive_eSignShowLoginInfoInd>
+        <com.progressive_DocPreference>None</com.progressive_DocPreference>
+        <com.progressive_eSignAcknowledgeDriversInd>1</com.progressive_eSignAcknowledgeDriversInd>
+        <com.progressive_eSignAcknowledgeVehiclesInd>1</com.progressive_eSignAcknowledgeVehiclesInd>
+        <com.progressive_AllVehiclesGrgInStateInd>1</com.progressive_AllVehiclesGrgInStateInd>
+        <com.progressive_AllHouseholdDrvListedInd>1</com.progressive_AllHouseholdDrvListedInd>
+        <com.progressive_UBIAcknowledgement>1</com.progressive_UBIAcknowledgement>
+        <com.progressive_UBIExperienceEnrollment>N</com.progressive_UBIExperienceEnrollment>
+        <com.progressive_DsbBalanceInd>0</com.progressive_DsbBalanceInd>
+        <com.progressive_UnderwritingCoAcknowledgement>1</com.progressive_UnderwritingCoAcknowledgement>
+        <LOBCd>AUTOP</LOBCd>
+        <ContractTerm>
+          <EffectiveDt>2026-11-03</EffectiveDt>
+          <DurationPeriod />
+        </ContractTerm>
+        <OtherOrPriorPolicy>
+          <PolicyCd>Prior</PolicyCd>
+          <NAICCd>00008</NAICCd>
+          <LOBCd>AUTOP</LOBCd>
+          <ContractTerm>
+            <EffectiveDt>2026-05-03</EffectiveDt>
+            <ExpirationDt>2027-05-03</ExpirationDt>
+            <DurationPeriod />
+            <ContinuousInd>1</ContinuousInd>
+          </ContractTerm>
+          <com.progressive_SpinOffCd>A</com.progressive_SpinOffCd>
+          <com.progressive_ProgPriorInd>0</com.progressive_ProgPriorInd>
+          <Coverage>
+            <CoverageCd>BI</CoverageCd>
+            <Limit>
+              <FormatCurrencyAmt />
+              <FormatInteger>250000</FormatInteger>
+              <LimitAppliesToCd>PerPerson</LimitAppliesToCd>
+            </Limit>
+            <Limit>
+              <FormatCurrencyAmt />
+              <FormatInteger>500000</FormatInteger>
+              <LimitAppliesToCd>PerAcc</LimitAppliesToCd>
+            </Limit>
+          </Coverage>
+          <Coverage>
+            <CoverageCd>TORT</CoverageCd>
+            <Option>
+              <OptionTypeCd>Opt1</OptionTypeCd>
+              <OptionCd>FT</OptionCd>
+            </Option>
+          </Coverage>
+          <LengthTimeWithPreviousInsurer>
+            <UnitMeasurementCd>ANN</UnitMeasurementCd>
+            <NumUnits>3</NumUnits>
+          </LengthTimeWithPreviousInsurer>
+          <com.progressive_SixMonPriorCovCd>A</com.progressive_SixMonPriorCovCd>
+        </OtherOrPriorPolicy>
+        <OtherOrPriorPolicy>
+          <PolicyCd>Other</PolicyCd>
+          <NAICCd>00008</NAICCd>
+          <LOBCd>BT</LOBCd>
+          <ContractTerm>
+            <EffectiveDt>2026-05-03</EffectiveDt>
+            <ExpirationDt>2027-05-03</ExpirationDt>
+            <DurationPeriod />
+            <ContinuousInd>1</ContinuousInd>
+          </ContractTerm>
+          <com.progressive_ProgPriorInd>0</com.progressive_ProgPriorInd>
+          <Coverage>
+            <CoverageCd>CSL</CoverageCd>
+            <Limit>
+              <FormatCurrencyAmt />
+              <FormatInteger>100000</FormatInteger>
+            </Limit>
+          </Coverage>
+          <LengthTimeWithPreviousInsurer>
+            <UnitMeasurementCd>ANN</UnitMeasurementCd>
+            <NumUnits>3</NumUnits>
+          </LengthTimeWithPreviousInsurer>
+          <com.progressive_SixMonPriorCovCd>A</com.progressive_SixMonPriorCovCd>
+        </OtherOrPriorPolicy>
+        <PersApplicationInfo>
+          <InsuredOrPrincipal>
+            <GeneralPartyInfo>
+              <ItemIdInfo>
+                <AgencyId>12345</AgencyId>
+              </ItemIdInfo>
+              <NameInfo>
+                <PersonName />
+                <TaxIdentity>
+                  <TaxIdTypeCd>SSN</TaxIdTypeCd>
+                </TaxIdentity>
+                <CommlName />
+              </NameInfo>
+              <Addr />
+              <Communications>
+                <EmailInfo />
+              </Communications>
+            </GeneralPartyInfo>
+            <InsuredOrPrincipalInfo>
+              <PersonInfo />
+            </InsuredOrPrincipalInfo>
+          </InsuredOrPrincipal>
+          <com.progressive_CorpPartnershipInd>0</com.progressive_CorpPartnershipInd>
+          <com.progressive_CWIReasonCd>CWIOther</com.progressive_CWIReasonCd>
+          <com.progressive_PolMltryStatCd>A</com.progressive_PolMltryStatCd>
+          <NumResidentsInHousehold>12</NumResidentsInHousehold>
+          <ResidenceTypeCd>DW</ResidenceTypeCd>
+          <ResidenceOwnedRentedCd>OWNED</ResidenceOwnedRentedCd>
+          <Addr />
+          <LengthTimeCurrentAddr>
+            <DurationPeriod>
+              <NumUnits>5</NumUnits>
+              <UnitMeasurementCd>ANN</UnitMeasurementCd>
+            </DurationPeriod>
+          </LengthTimeCurrentAddr>
+          <com.progressive_AllHshldDrvrsListedInd>1</com.progressive_AllHshldDrvrsListedInd>
+          <com.progressive_Race>J</com.progressive_Race>
+          <com.progressive_DsbPkgInd>0</com.progressive_DsbPkgInd>
+          <com.progressive_MultiPolicyRiskCd>MC</com.progressive_MultiPolicyRiskCd>
+          <com.progressive_MultiPolicyInd>0</com.progressive_MultiPolicyInd>
+          <com.progressive_PIPClaims>1</com.progressive_PIPClaims>
+          <com.progressive_RegOwnNI>1</com.progressive_RegOwnNI>
+          <com.progressive_PGAAddrInd>1</com.progressive_PGAAddrInd>
+          <InsuredMovedIn2Months />
+        </PersApplicationInfo>
+        <com.progressive_SixMonthGaragingInd>1</com.progressive_SixMonthGaragingInd>
+        <com.progressive_CanceledDeclinedInd>0</com.progressive_CanceledDeclinedInd>
+        <com.progressive_ThrYrPriorPolInd>1</com.progressive_ThrYrPriorPolInd>
+        <com.progressive_ResidentMedCovInfo />
+      </PersPolicy>
+      <PersAutoLineBusiness>
+        <PersDriver id="D1">
+          <GeneralPartyInfo>
+            <ItemIdInfo>
+              <AgencyId>12345</AgencyId>
+            </ItemIdInfo>
+            <NameInfo>
+              <PersonName>
+                <GivenName>B1</GivenName>
+                <Surname>Creditdemo</Surname>
+              </PersonName>
+              <TaxIdentity>
+                <TaxIdTypeCd>SSN</TaxIdTypeCd>
+                <TaxId>275-55-6992</TaxId>
+              </TaxIdentity>
+              <CommlName />
+            </NameInfo>
+            <Addr />
+            <Communications>
+              <EmailInfo />
+            </Communications>
+          </GeneralPartyInfo>
+          <DriverInfo>
+            <PersonInfo>
+              <GenderCd>M</GenderCd>
+              <BirthDt>1996-11-03</BirthDt>
+              <MaritalStatusCd>S</MaritalStatusCd>
+            </PersonInfo>
+            <License>
+              <LicenseClassCd>O</LicenseClassCd>
+              <LicenseStatusCd>Active</LicenseStatusCd>
+              <StateProvCd>OH</StateProvCd>
+              <LicensePermitNumber>RU123456</LicensePermitNumber>
+              <CountryCd>US</CountryCd>
+              <LicensedDt>2016-11-03</LicensedDt>
+              <LicenseTerm>
+                <DurationPeriod>
+                  <NumUnits />
+                  <UnitMeasurementCd />
+                </DurationPeriod>
+              </LicenseTerm>
+              <FirstLicensedCurrentStateDt>2016-11-03</FirstLicensedCurrentStateDt>
+              <com.progressive_PreviousLicenseState>OK</com.progressive_PreviousLicenseState>
+              <com.progressive_InsdSelectedPrevLicenseStCd>OK</com.progressive_InsdSelectedPrevLicenseStCd>
+              <com.progressive_MatriculaCardUsedInd>0</com.progressive_MatriculaCardUsedInd>
+            </License>
+          </DriverInfo>
+          <PersDriverInfo VehPrincipallyDrivenRef="V1">
+            <DefensiveDriverCd>N</DefensiveDriverCd>
+            <DistantStudentInd>0</DistantStudentInd>
+            <DriverRelationshipToApplicantCd>IN</DriverRelationshipToApplicantCd>
+            <DriverTypeCd />
+            <GoodStudentCd>N</GoodStudentCd>
+            <OutsideCountryInfo>
+              <LengthTimeDrivingOutsideCountry>
+                <DurationPeriod>
+                  <UnitMeasurementCd>ANN</UnitMeasurementCd>
+                </DurationPeriod>
+              </LengthTimeDrivingOutsideCountry>
+            </OutsideCountryInfo>
+            <MatureDriverInd>0</MatureDriverInd>
+            <com.progressive_OccasionalOperatorInd>0</com.progressive_OccasionalOperatorInd>
+            <com.progressive_WorkLossExclusionInd>0</com.progressive_WorkLossExclusionInd>
+            <com.progressive_EducationLevelCd>CollegeDegree</com.progressive_EducationLevelCd>
+            <com.progressive_EmploymentStatusCd>01</com.progressive_EmploymentStatusCd>
+            <com.progressive_OccupationLevelCd>010</com.progressive_OccupationLevelCd>
+            <com.progressive_YearsLicensed>3</com.progressive_YearsLicensed>
+            <com.progressive_MonthsLicensed>60</com.progressive_MonthsLicensed>
+            <com.progressive_PIPClaims>0</com.progressive_PIPClaims>
+            <com.progressive_YearsExperienced>3</com.progressive_YearsExperienced>
+          </PersDriverInfo>
+        </PersDriver>
+        <PersVeh id="V1" RegisteredOwnerRef="D1" RatedDriverRef="D1" LocationRef="L1">
+          <VehIdentificationNumber>1FTFW1CT6CFB64889</VehIdentificationNumber>
+          <VehBodyTypeCd>PP</VehBodyTypeCd>
+          <com.progressive_StatedAmtInd>0</com.progressive_StatedAmtInd>
+          <AirBagTypeCd>1</AirBagTypeCd>
+          <CarpoolInd>0</CarpoolInd>
+          <AntiTheftDeviceCd>1</AntiTheftDeviceCd>
+          <VehPerformanceCd>BASIC</VehPerformanceCd>
+          <VehUseCd>PL</VehUseCd>
+          <com.progressive_VehDeliveryUseInd>0</com.progressive_VehDeliveryUseInd>
+          <com.progressive_SnowPlowInd>0</com.progressive_SnowPlowInd>
+          <com.progressive_UBIEnrollmentInd>0</com.progressive_UBIEnrollmentInd>
+          <com.progressive_VehicleUsedForRideshareInd>0</com.progressive_VehicleUsedForRideshareInd>
+          <com.progressive_LengthOfOwnership>
+            <DurationPeriod>
+              <NumUnits>36</NumUnits>
+              <UnitMeasurementCd>MON</UnitMeasurementCd>
+            </DurationPeriod>
+          </com.progressive_LengthOfOwnership>
+          <PurchaseDt>2026-11-03</PurchaseDt>
+          <CostNewAmt />
+          <DistanceOneWay>
+            <NumUnits>10</NumUnits>
+            <UnitMeasurementCd>SMI</UnitMeasurementCd>
+          </DistanceOneWay>
+          <EstimatedAnnualDistance>
+            <NumUnits>12630</NumUnits>
+            <UnitMeasurementCd>SMI</UnitMeasurementCd>
+          </EstimatedAnnualDistance>
+          <Coverage>
+            <CoverageCd>BI</CoverageCd>
+            <Limit>
+              <FormatCurrencyAmt />
+              <FormatInteger>100000</FormatInteger>
+              <LimitAppliesToCd>PerPerson</LimitAppliesToCd>
+            </Limit>
+            <Limit>
+              <FormatCurrencyAmt />
+              <FormatInteger>300000</FormatInteger>
+              <LimitAppliesToCd>PerAcc</LimitAppliesToCd>
+            </Limit>
+          </Coverage>
+          <Coverage>
+            <CoverageCd>PD</CoverageCd>
+            <Limit>
+              <FormatCurrencyAmt />
+              <FormatInteger>50000</FormatInteger>
+              <LimitAppliesToCd>Coverage</LimitAppliesToCd>
+            </Limit>
+          </Coverage>
+          <Coverage>
+            <CoverageCd>UM</CoverageCd>
+            <Limit>
+              <FormatCurrencyAmt />
+              <FormatInteger>100000</FormatInteger>
+              <LimitAppliesToCd>PerPerson</LimitAppliesToCd>
+            </Limit>
+            <Limit>
+              <FormatCurrencyAmt />
+              <FormatInteger>300000</FormatInteger>
+              <LimitAppliesToCd>PerAcc</LimitAppliesToCd>
+            </Limit>
+          </Coverage>
+          <Coverage>
+            <CoverageCd>COMP</CoverageCd>
+            <Deductible>
+              <FormatCurrencyAmt />
+              <FormatInteger>1000</FormatInteger>
+            </Deductible>
+          </Coverage>
+          <Coverage>
+            <CoverageCd>COLL</CoverageCd>
+            <Deductible>
+              <FormatCurrencyAmt />
+              <FormatInteger>1000</FormatInteger>
+            </Deductible>
+          </Coverage>
+          <Registration>
+            <RegistrationTypeCd>Normal</RegistrationTypeCd>
+          </Registration>
+          <OdometerReading />
+          <com.progressive_VehicleEmergencyBrakingInd>0</com.progressive_VehicleEmergencyBrakingInd>
+          <com.progressive_BlindSpotWarningInd>0</com.progressive_BlindSpotWarningInd>
+        </PersVeh>
+        <com.progressive_AdditionalDrivers />
+      </PersAutoLineBusiness>
+      <Location id="L1">
+        <ItemIdInfo>
+          <AgencyId>12345</AgencyId>
+        </ItemIdInfo>
+        <Addr>
+          <AddrTypeCd>GaragingAddress</AddrTypeCd>
+          <Addr1>123 Bypass PBV</Addr1>
+          <Addr2>Apt 22</Addr2>
+          <City>Any</City>
+          <StateProvCd>CA</StateProvCd>
+          <PostalCode>90403</PostalCode>
+          <com.progressive_LocationCd>XX</com.progressive_LocationCd>
+        </Addr>
+      </Location>
+    </PersAutoPolicyQuoteInqRq>
+  </InsuranceSvcRq>
+  <Debug>
+    <ServiceImplementationOverrides>
+      <Service name="EligibleStateProductService">
+        <Implementation>MockAllProductsUBSBR</Implementation>
+      </Service>
+      <Service name="QuoteSave">
+        <Implementation>UQSSaveControl</Implementation>
+      </Service>
+      <Service name="SoldPolicy">
+        <Implementation>Failure</Implementation>
+      </Service>
+      <Service name="SmartIntervention">
+        <Implementation>MockRTDNotIntervened</Implementation>
+      </Service>
+      <Service name="DSVService">
+        <Implementation>DSVOverrides</Implementation>
+        <Value>VQAR_SINGLE_CAR_FILTER=N;VQAR_MULTI_CAR_FILTER=N</Value>
+      </Service>
+      <Service name="VehicleHistory">
+        <Implementation>NotOrdered</Implementation>
+      </Service>
+      <Service name="FeatureManager">
+        <Implementation />
+        <Value>avq_choice_rate_flag=Y;avq_quote_block_flag=N;avq_rtd_cov_packaging_fm_flag=Y;uq_agt_qne_flag=2006B;avq_choice_rate_flag=Y;avq_quote_block_flag=N;avq_rtd_cov_packaging_fm_flag=Y</Value>
+      </Service>
+    </ServiceImplementationOverrides>
+    <com.progressive_IntermediateDumpName>VQAR8</com.progressive_IntermediateDumpName>
+  </Debug>
+</ACORD>
